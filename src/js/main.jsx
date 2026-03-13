@@ -1,18 +1,14 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
+import React from "react";
+import ReactDOM from "react-dom/client";
+import Home from "./components/Home";
 
-//Bootstrap
+// estilos
 import "bootstrap/dist/css/bootstrap.min.css";
-import "bootstrap"
+import "@fortawesome/fontawesome-free/css/all.min.css";
+import "../styles/index.css";
 
-// index.css'
-import '../styles/index.css'
-
-// components
-import Home from './components/Home';
-
-ReactDOM.createRoot(document.getElementById('root')).render(
+ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <Home/>
-  </React.StrictMode>,
-)
+    <Home />
+  </React.StrictMode>
+);
